@@ -20,3 +20,21 @@ sudo apt-get install jenkins
 sudo apt install openjdk-8-jdk -y
 ```
 - git
+
+## Go to create job and create a freestyle config
+
+<img width="1552" alt="image" src="https://github.com/Kamalesh-Seervi/vprofile_freestyle_jenkins/assets/107933310/802fb174-7da5-4879-bded-7bba0b5b7c6c">
+
+- In code source management add the git url of the project repo:
+
+```
+https://github.com/devopshydclub/vprofile-project.git
+```
+
+- In build steps add maven targets and set the maven version
+
+<img width="1552" alt="image" src="https://github.com/Kamalesh-Seervi/vprofile_freestyle_jenkins/assets/107933310/4081bd1d-9b49-4786-8117-3cb7a58705ad">
+
+- Save and click build now :
+
+
