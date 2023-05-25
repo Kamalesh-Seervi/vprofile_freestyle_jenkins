@@ -1,4 +1,5 @@
 # vprofile_freestyle_jenkins
+# Goal to create a JOB in jenkins for vprofile project:
 ### This repo uses EC2 instance and installed jenkins 
 
 ```
@@ -36,5 +37,20 @@ https://github.com/devopshydclub/vprofile-project.git
 <img width="1552" alt="image" src="https://github.com/Kamalesh-Seervi/vprofile_freestyle_jenkins/assets/107933310/4081bd1d-9b49-4786-8117-3cb7a58705ad">
 
 - Save and click build now :
+
+<img width="1552" alt="image" src="https://github.com/Kamalesh-Seervi/vprofile_freestyle_jenkins/assets/107933310/f543d2dd-f63c-4c9f-8afb-bb621bc5244c">
+
+- Go to workspace in target folder download vprofile.war 
+
+- If you want to secure the artifacts go to configure under that use Post Build action as Archive artifacts.
+- File to Archive 
+```
+***/*.war
+```
+- Build Again:
+
+<img width="1552" alt="image" src="https://github.com/Kamalesh-Seervi/vprofile_freestyle_jenkins/assets/107933310/b3be664a-1e8a-4f05-94ec-36e79d81e836">
+
+- Now the `.war` is saved in archive so even if we delete the workspace the .war is already archived .
 
 
